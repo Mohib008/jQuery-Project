@@ -12,5 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm install node-sass"
   }
 }
