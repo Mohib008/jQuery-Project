@@ -45,4 +45,48 @@ function moveCommand(direction) {
             whatHappens = "please enter a valid direction";
     }
     return whatHappens;
+} 
+
+var name = "Mohib";
+if(name === "Mohib") {
+    console.log("Hi Mohib");
+} else if (name === "Arsala") {
+    console.log("Hi Arsala");
+} else {
+    console.log("Hummm i dont know you!");
 }
+
+console.log("hello", "this is my webside", "are this your");
+
+
+function sayHello() {
+    console.log("Hello");
+}
+sayHello();
+var sayBye = function() {
+    console.log("Bye");
+}
+sayBye();
+
+
+
+function sing(songs) {
+    console.log(songs);
+}
+
+sing("lalalalalal");
+sing("heheheheheheheh");
+sing("daratatjoeteoteoit");
+
+function multiply(a, b) {
+    if (a > 10 || b > 10) {
+        return "that's too hard";
+    } else {
+        return a*b;
+    }
+}
+
+multiply(5,10);
+
+var list = ["car", "track", "MoterBig", "Cycle", "Airplane"];
+console.log(list[0][4]);
