@@ -1,49 +1,21 @@
-//scope
-
-// Root Scope (window)
-
-/*var fun = 5;
-
-function funFunction() {
-    //child scope
-    var fun = "hello";
-    console.log(1, fun);
-}
-
-function funerFunction() {
-    var fun = "Bye";
-    console.log(2, fun);
-}
-
-function funestFunction() {
-    fun = "Ahhh";
-    console.log(3, fun);
-}
-
-console.log("window", fun); */
-
-function isUserValid(bool) {
-    return bool;
-}
-
-var ansswer = isUserValid(true) ? "You may enter" : "Acces Denied";
-var automatedAnswer = "Your account # is " + ( isUserValid(false) ? "1234" : "not available");
-
-function moveCommand(direction) {
-    var whatHappens;
-    switch (direction) {
-        case "forward":
-            whatHappens = "Your encouter a monstar";
-            break;
-        case "back":
-            whatHappens = "Your arrived home";
-            break;
-        case "left":
-            whatHappens = "Your run into a troll";
-            break;
-        default:
-            whatHappens = "please enter a valid direction";
+var database = [
+    {
+        username: "Mohib",
+        password: "arsalamml"
     }
+];
+
+var newsFeed = [
+    {
+        username: "Arsala",
+        timeline: "not tired from learning new things i want more to learn as queck as possible"
+    }, 
+
+    {
+        username: "Mohibullah",
+        timeline: "Javascript is so cool ! i wanna learn more about it"
+    }
+<<<<<<< HEAD
     return whatHappens;
 }
 
@@ -72,3 +44,6 @@ var list = [
         action: "stright"
     }
 ]
+=======
+];
+>>>>>>> bbc233e3755a50e9e808a91e2f1de80a909b7d57
